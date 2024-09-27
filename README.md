@@ -1,4 +1,4 @@
-# Image Caption Generation using Deep Learning
+# Deep Learning Based Image Caption Capture
 
 [![GitHub license](https://img.shields.io/github/license/Sajid030/image-caption-generator)](https://github.com/Sajid030/image-caption-generator/blob/master/LICENSE.md)
 [![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -18,17 +18,6 @@
 - [Directory Tree](#directory-tree)
 - [Bug / Feature Request](#bug--feature-request)
 - [Future Scope](#future-scope)
-
-## Demo
-
-- Link: https://imgcaptiongen.streamlit.app/
-
-`Note:` If the website link provided above is not working, it might mean that the deployment has been stopped or there are technical issues. We apologize for any inconvenience.
-
-- Please consider giving a ⭐ to the repository if you find this app useful.
-- A quick preview of the **Image Caption Generator** app:
-
-![Caption Generator Demo](resource/demo.gif)
 
 ## Overview
 
@@ -75,12 +64,6 @@ This will install all the necessary packages and libraries needed to run the pro
 3. Log in to Streamlit Sharing and create a new app.
 4. Connect your GitHub account to Streamlit Sharing and select this repository.
 5. Set the following configuration variables in the Streamlit Sharing dashboard:
-```
-[server]
-headless = true
-port = $PORT
-enableCORS = false
-```
 6. Click on "Deploy app" to deploy the app on Streamlit Sharing.
 
 ## Directory Tree
@@ -94,17 +77,8 @@ enableCORS = false
 |   requirements.txt
 |   tokenizer.pkl
 \---resource
-        demo.gif
 ```
 
 ## Bug / Feature Request
 
 If you encounter any bugs or issues with the loan status predictor app, please let me know by opening an issue on my [GitHub repository](https://github.com/Sajid030/image-captioning/issues). Be sure to include the details of your query and the expected results. Your feedback is valuable in helping me improve the app for all users. Thank you for your support!
-
-## Future Scope
-
-1. **Fine-tuning**: Experiment with fine-tuning the captioning model architecture and hyperparameters for improved performance.
-2. **Dataset Expansion**: Incorporate additional datasets to increase the diversity and complexity of the trained model for example we can train the model on [Flickr30k dataset](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset).
-3. **Beam Search**: Implement beam search decoding for generating multiple captions and selecting the best one.
-4. **User Interface Enhancements**: Improve the Streamlit app's user interface and add features such as image previews and caption confidence scores.
-5. **Multilingual Captioning**: Extend the model to generate captions in multiple languages by incorporating multilingual datasets.
