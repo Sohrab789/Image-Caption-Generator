@@ -35,9 +35,9 @@ The key components of the project include:
 
 ## About the Dataset
 
-The [Flickr8k dataset](https://www.kaggle.com/adityajn105/flickr8k) is used for training and evaluating the image captioning system. It consists of 8,091 images, each with five captions describing the content of the image. The dataset provides a diverse set of images with multiple captions per image, making it suitable for training caption generation models.
+The [Flickr30k dataset](https://www.kaggle.com/adityajn105/flickr30k) is used for training and evaluating the image captioning system. It consists of 8,091 images, each with five captions describing the content of the image. The dataset provides a diverse set of images with multiple captions per image, making it suitable for training caption generation models.
 
-Download the dataset from [Kaggle](https://www.kaggle.com/adityajn105/flickr8k) and organize the files as follows:
+Download the dataset from [Kaggle](https://www.kaggle.com/adityajn105/flickr30k) and organize the files as follows:
 
 - flickr8k
   - Images
@@ -49,7 +49,7 @@ Download the dataset from [Kaggle](https://www.kaggle.com/adityajn105/flickr8k) 
 This project is written in Python 3.10.12. If you don't have Python installed, you can download it from the [official website](https://www.python.org/downloads/). If you have an older version of Python, you can upgrade it using the pip package manager, which should be already installed if you have Python 2 >=2.7.9 or Python 3 >=3.4 on your system.
 To install the required packages and libraries, you can use pip and the provided requirements.txt file. First, clone this repository to your local machine using the following command:
 ```
-https://github.com/Sajid030/image-caption-generator.git
+(https://github.com/Sohrab789/Image-Caption-Generator.git)
 ```
 Once you have cloned the repository, navigate to the project directory and run the following command in your terminal or command prompt:
 ```bash
@@ -81,4 +81,5 @@ This will install all the necessary packages and libraries needed to run the pro
 
 ## Bug / Feature Request
 
-If you encounter any bugs or issues with the loan status predictor app, please let me know by opening an issue on my [GitHub repository](https://github.com/Sajid030/image-captioning/issues). Be sure to include the details of your query and the expected results. Your feedback is valuable in helping me improve the app for all users. Thank you for your support!
+If you encounter any bugs or issues with the loan status predictor app, please let me know by opening an issue on my [GitHub repository]((https://github.com/Sohrab789/Image-Caption-Generator.git)/issues). Be sure to include the details of your query and the expected results. Your feedback is valuable in helping me improve the app for all users. 
+Thank you for your support!
